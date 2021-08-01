@@ -1,0 +1,101 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\BreadmakerReport.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\BreadmakerReport.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\BreadmakerReport.csproj",
+        "projectName": "BreadmakerReport",
+        "projectPath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\BreadmakerReport.csproj",
+        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {
+              "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\RatingAdjustmentService.csproj": {
+                "projectPath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\RatingAdjustmentService.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\RatingAdjustmentService.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\RatingAdjustmentService.csproj",
+        "projectName": "RatingAdjustmentService",
+        "projectPath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\RatingAdjustmentService.csproj",
+        "packagesPath": "C:\\Users\\Personal\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\RatingAdjustmentService\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Personal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net50": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net50": {
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

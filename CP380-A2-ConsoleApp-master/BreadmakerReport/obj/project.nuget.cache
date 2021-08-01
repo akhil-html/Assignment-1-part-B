@@ -1,0 +1,48 @@
+{
+  "version": 2,
+  "dgSpecHash": "HakaBeltjOBksY/2etdm3gHnMS8Zx+qlIT9oI77CI6mJqgGYlV+A7+IncUl2GN85+jLxgr5OIjNI1AgwvvhbEg==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Personal\\Desktop\\CP380-A2-ConsoleApp-master_Akhil\\CP380-A2-ConsoleApp-master\\BreadmakerReport\\BreadmakerReport.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Personal\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.6\\microsoft.entityframeworkcore.5.0.6.nupkg.sha512",
+    "C:\\Users\\Personal\\.nuget\\packages\\microsoft.entityframeworkcore.sqlite\\5.0.6\\microsoft.entityframeworkcore.sqlite.5.0.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Sqlite 5.0.6 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.EntityFrameworkCore.Sqlite 5.0.6 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 5.0.6 is not compatible with net50 (.NETFramework,Version=v5.0). Package Microsoft.EntityFrameworkCore 5.0.6 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore 5.0.6 is not compatible with net50 (.NETFramework,Version=v5.0) / win7-x86. Package Microsoft.EntityFrameworkCore 5.0.6 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    },
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Microsoft.EntityFrameworkCore.Sqlite 5.0.6 is not compatible with net50 (.NETFramework,Version=v5.0) / win7-x86. Package Microsoft.EntityFrameworkCore.Sqlite 5.0.6 supports: netstandard2.1 (.NETStandard,Version=v2.1)",
+      "libraryId": "Microsoft.EntityFrameworkCore.Sqlite",
+      "targetGraphs": [
+        ".NETFramework,Version=v5.0/win7-x86"
+      ]
+    }
+  ]
+}
